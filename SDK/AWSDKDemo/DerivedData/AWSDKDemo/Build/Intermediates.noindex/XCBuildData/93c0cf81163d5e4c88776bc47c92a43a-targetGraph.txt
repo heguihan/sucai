@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+AWSDKDemo in AWSDKDemo
+AWSDKDemoTests in AWSDKDemo, depends on:
+AWSDKDemo in AWSDKDemo (explicit)

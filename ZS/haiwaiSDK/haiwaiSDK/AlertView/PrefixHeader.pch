@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  haiwaiSDK
+//
+//  Created by Lucas on 2019/3/18.
+//  Copyright © 2019 Lucas. All rights reserved.
+//
+#import "HGHUIFrame.h"
+#import "HGHConfig.h"
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define URL_DOMAIN @"https://hw.account.acingame.com/"
+#define URL_CHECKBIND @"api/auth/bindThirdParty/check"
+#define URL_REFRESHTOKEN @"api/auth/token/refresh"
+#define URL_CHECKTOKEN @"api/auth/token/check"
+#define URL_LOGOUT @"api/auth/account/logout"
+#define URL_USERPROFILE @"api/auth/account/profile"
+#define URL_REGISTER @"api/auth/register"
+#define URL_LOGIN @"api/auth/login"
+#define URL_BIND @"api/auth/bindAccount"
+#define URL_VERIFYCODE @"api/captcha/register"
+#define URL_RESETPWD @"api/captcha/resetPassword"
+#define URL_SEARCHPWD @"api/auth/resetPassword"
+#define URL_CHANGEPWD @"api/auth/changePassword"
+#define URL_IAP @"https://hw.pay.acingame.com/payment/gateway/trade/inAppPay"
+
+#define SCREENWIDTH [HGHUIFrame getScreenWIDTH]
+#define SCREENHEIGHT [HGHUIFrame getScreenHEIGHT]
+#define VIEWWIDTH [HGHUIFrame getViewWIDTH]
+#define VIEWHEIGHT [HGHUIFrame getViewHEIGTH]
+#define XPOINT [HGHUIFrame getXpoint]
+#define YPOINT [HGHUIFrame getYpoint]
+#define GuoJiHua(str) NSLocalizedString(str,nil)
+
+#define FACEBOOKISCLOSE [HGHConfig getFacebookClose]
+#define GOOGLEISCLOSE [HGHConfig getGoogleClose]
+#define GUESTISCLOSE [HGHConfig getGuestClose]
+
+
+#endif /* PrefixHeader_pch */

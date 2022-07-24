@@ -1,0 +1,64 @@
+/*
+ Localizable.strings
+ haiwaiSDK
+ 
+ Created by Lucas on 2019/5/9.
+ Copyright © 2019 Lucas. All rights reserved.
+ */
+"登录"="LOGIN";
+"注册"="REGISTER";
+"找回密码"="Forgot Password?";
+"确认登录"="Login";
+"其他方式登录"="Other Account Login";
+"获取验证码"="Verification Code";
+"我已阅读并同意"="I have read";
+"会员条款及管理规章"="Acingame User Agreement";
+"账号管理"="MANAGE ACCOUNT";
+"找回密码"="Forgot Password";
+"修改密码"="CHANGE PASSWORD";
+"账号绑定"="BIND ACCOUNT";
+"绑定账号"="BIND ACCOUNT";
+"忘记密码"="FORGOT PASSWORD";
+"确认操作"="Confirm";
+"警告"="Warning";
+"网络连接失败"="Connection Failed";
+"系统服务器繁忙"="Server Busy";
+"账号不能为空"="Account can't be empty";
+"密码不能为空"="Password can't be empty";
+"邮箱不能为空"="Email Address can't be empty";
+"验证码不能为空"="Verification Code can't be empty";
+"取消"="Cancel";
+"语言"="2";
+"登录失败"="Login failed";
+"注册失败"="Registration failed";
+"获取验证码失败"="Get verification code failed";
+"账号绑定失败"="Account binding failed";
+"获取用户信息失败"="Failed to get user information";
+"验证Token失败"="Token verify failed";
+"设备上报失败"="Report deviceinfo failed";
+"刷新Token失败"="refresh token failed";
+"修改密码失败"="Change password failed";
+"找回密码失败"="Password recovery failed";
+"切换账号"="Switch Account";
+"邮箱格式不匹配"="Mailbox format mismatch";
+"密码的长度必须在8到25之间"="The length of the password must be between 8 and 25";
+"登录大写"="LOGIN";
+"确认"="CONFIRM";
+"验证码"="VERIFY CODE";
+"注册b"="REGISTER";
+"忘记密码提示"="Please enter an authenticated email address. After confirmation, the system will send the password to this email address";
+"Account"="  Account: ";
+"Oldpwd"="  Old pwd: ";
+"Newpwd"="  New pwd: ";
+"Confirmpwd"="  Confirm pwd: ";
+"GUEST"="GUEST";
+"GOOGLE"="GOOGLE";
+"欢迎回来"="Welcome Back,";
+"请输入邮箱地址"="Enter your email address";
+"新密码已发送至邮箱"="New password has been sent to your email.";
+"游客提示绑定"="If you are a tourist now, please bind a third party account as soon as possible.";
+"修改密码成功"="Change Password Success";
+"绑定账号失败或已绑定"="The account binding failed or has been bound";
+"绑定成功"="Binding success";
+"langxx"="en_US";
+"仅限ios13以上用户使用"="Available for iOS 13 or above.";

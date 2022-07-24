@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  AWSDKDemo
+
+  Created by admin on 2022/1/10.
+  
+*/
+
+
+
+"tt" = "我我我我我我";
+"登录" = "Login";
+"注册" = "Register";
+"用户协议" = "User agreement";
+"隐私协议" = "Privacy policy";
+"用户协议和隐私协议" = "User agreement &amp; Privacy policy";
+"请勾选用户隐私协议等等" = "\u3000\u3000Dear players, welcome! We attach great importance to your personal information and privacy protection. Before entering the game, please carefully read the User Agreement and Privacy Policy and fully understand the terms of the Agreement. We will use your personal information strictly in accordance with the terms you agree to, so as to provide you with better services.";
+"拒绝" = "Refuse";
+"aw_and" = "&amp;";
+"其他登录账号" = "Login to other account";
+"请输入6-8字符" = "please input password within 6–8 letters";
+"同意" = "Agree";
+"欢迎回来" = "welcome back!";
+"修改密码" = "Change password";
+"旧密码" = "Old password";
+"新密码" = "New password";
+"确认密码" = "Confirm password";
+"修改" = "Change";
+"退出游戏" = "Exit game";
+"绑定手机" = "Bind phone";
+"请绑定你的手机，用来找回账号" = "Please bind your phone，in order to retrieve your account.";
+"手机号" = "Phone no";
+"验证码" = "Verification code";
+"发送" = "Send";
+"确认" = "Confirm";
+"客户服务" = "Customer service";
+"更多登录方式" = "More login way";
+"网络错误" = "Network error";
+"请检查网络，稍后再试" = "Please check the network connection and try again";
+"重试" = "Retry";
+"付款" = "Payment";
+"手机登录" = "Phone login";
+"提示" = "Tips";
+"网络不稳定，稍后重试" = "The network is unstable. Please try again later.";
+"取消" = "Cancel";
+"修改账号名" = "Change account name";
+"设置一个好记的账号名，只有一次机会" = "Set a memorable account name, only one chance";
+"新账号名" = "New account name";
+"确认修改" = "Confirm change";
+"游戏版本" = "Game version:";
+"SDK版本" = "Sdk version:";
+"点击复制" = "Click to copy all";
+"点过广告" = "Skip Ad";
+"切换账号" = "Switch account?";
+"退出游戏?" = "Exit game?";
+"退出当前账号并且返回到登录界面" = "Exit the current account and return to the login screen";
+"加载中" = "loading...";
+"今日不再显示" = "No longer displayed today";
+"当时版本是测试版本" = "Current version is for testing";
+"请阅读并同意用户协议" = "Please read and agree to the User Agreement.";
+"和隐私协议" = "and Privacy Policy";
+"账号不存在" = "The account does not exist";
+"绑定成功" = "Bind success";
+"快速游戏" = "Quick play";
+"手机登录" = "Phone";
+"facebook" = "Facebook";
+"google" = "Google";
+"google pay" = "Google Pay";
+"收到" = "Received";
+"交换" = "exchanged";
+"红包" = "red packet";
+"URL为空" = "URL is empty";
+"绑定手机" = "Bind phone";
+"获取游戏配置信息" = "Get game configuration information";
+"没有安装" = "Not install yet";
+"请先安装" = "Please install first";
+"打开浏览器失败" = "Open browser failed";
+"没有安装浏览器" = "No browser installed";
+"请输入手机号" = "Please enter phone no.";
+"请输入验证码" = "Please enter verification code";
+"请输入账号" = "Please enter account name";
+"账号至少需要4个字符" = "Account name need 4 letters at least";
+"账号不能超过20个字符" = "Account name contains 20 letters at most";
+"没有登录" = "Not login";
+"修改密码成功" = "Change password success";
+"两次输入的密码不一致，请重新输入" = "The two passwords are inconsistent. Please re-enter them";
+"验证码已发送" = "The verification code has been sent";
+"网络异常，修改网络，稍后再试" = "The network is abnormal.Change your network access and try again later";
+"知道了" = "Get it";
+"支付成功" = "Payment success";
+"支付失败" = "Payment failure";
+"无客户服务" = "No customer service yet";
+"支付API没有回调" = "The payment API returns nothing";
+"当前账号名" = "Current Account name";
+"账号名修改成功" = "The account name changed successfully";
+"游戏配置信息为空" = "The payment API returns nothing";
+"游戏配置信息重试成功" = "Game config information is retrived successfully";
+"复制到剪切板" = "Copied to clipboard";
+"登录过期" = "Login expired";
+"用户信息为空" = "The user information is empty";
+"手机号已经绑定" = "The phone number has been bound";
+"success" = "Success";
+"保存失败" = "Save failed";
+"重新发送" = "Resend";
+"注意：" = "Notice:";
+"不同登录方式的账号是独立的" = "Accounts are independent between different login modes.";
+"忘记密码" = "Forget password?";
+"找回密码" = "Retrieve password";
+"验证你的手机号并重置密码" = "Verify your phone number and reset your password.";
+"我的手机号" = "My phone no.";
+"langeCode" = "en_US";
+

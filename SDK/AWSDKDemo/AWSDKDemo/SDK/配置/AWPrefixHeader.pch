@@ -1,0 +1,137 @@
+//
+//  AWPrefixHeader.pch
+//  AWSDKDemo
+//
+//  Created by admin on 2020/12/1.
+//
+
+#ifndef AWPrefixHeader_pch
+#define AWPrefixHeader_pch
+
+#import "AWTools.h"
+#import "AWConfig.h"
+#import "AWViewManager.h"
+#import "AWOrangeBtn.h"
+#import "AWTextField.h"
+#import "AWSmallControl.h"
+#import "AWHTTPRequest.h"
+#import "AWLoginViewManager.h"
+#import "AWGlobalDataManage.h"
+#import "AWDataReport.h"
+#import "AWHGHALLButton.h"
+#import "HGHShowBall.h"
+#import "ProgressHUD.h"
+#import "AWHttpResult.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+#ifdef DEBUG
+    #define AWLog(format,...)  [AWTools customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__]]
+#else
+    #define AWLog(farmat, ...) nil
+#endif
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define xxWIDTH  SCREENHEIGHT>SCREENWIDTH?SCREENWIDTH:SCREENHEIGHT
+#define xxHEIGHT  SCREENHEIGHT>SCREENWIDTH?SCREENHEIGHT:SCREENWIDTH
+
+
+#define SCALE ((xxWIDTH)/375.0>1.5?1.0:(xxWIDTH)/375.0)
+//#define SCALE ((xxWIDTH)/375.0)
+#define AdaptWidth(xx) (xx * SCALE)
+#define FONTSIZE(size)  [UIFont systemFontOfSize:size*SCALE]
+#define     RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define ORANGECOLOR  RGBA(255, 122, 15, 1)
+#define BLACKCOLOR  RGBA(93, 93, 93, 1)
+#define GRAYCOLOR  RGBA(237, 237, 237, 1)
+#define TFCOLOR  RGBA(248, 249, 252, 1)
+#define NAVICOLOR  RGBA(238, 242, 246, 1)
+//#define TFBACKCOLOR RGBA(236, 238, 243, 1)
+#define GRAYTITLECOLOR  RGBA(158, 176, 199, 1)
+#define BTNORANGECOLOR  RGBA(255, 138, 47, 1)
+#define TEXTBLACKCOLOR  RGBA(70, 71, 71, 1)
+
+#define ORANGEUNABLEBTNCOLOR RGBA(250, 193, 148, 1)
+
+#define CURRENTVC  [AWTools getCurrentVC]
+
+#define ViewWidth   AdaptWidth(320)
+#define ViewHeight  AdaptWidth(277)
+
+#define LogoViewHeight AdaptWidth(62)
+
+#define SmallViewHeight  AdaptWidth(227)
+
+#define MarginX AdaptWidth(20)
+//#define TFHeight AdaptWidth(42)
+#define TFHeight 42
+#define TFWidth  ViewWidth-MarginX*2
+#define NaviHeight AdaptWidth(44)
+#define TFLEFTWIDTH AdaptWidth(20)
+#define CONORIDUS   AdaptWidth(10)
+
+#define GUOJIHUA(key) NSLocalizedString(key, nil)
+
+#define LOGOYY      AdaptWidth(26)
+
+#define ViewMarginX  0
+#define ViewMarginY 0
+
+#define MAINVIEW  [AWViewManager shareInstance].mainView
+#define WHOLEVIEW  [AWViewManager shareInstance].wholeView
+#define WEBBACKVIEW  [AWViewManager shareInstance].webbackView
+
+
+#define kUIPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IphoneX (kUIPhone && (MAX([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) > 736))
+#define WeakSelf  __weak typeof(self) weakself = self;
+
+//登录类型
+
+#define LOGIN_USER    @"LOGIN_USER"
+#define LOGIN_VISITOR  @"LOGIN_VISITOR"
+#define LOGIN_FACEBOOK    @"LOGIN_FACEBOOK"
+#define LOGIN_PHONE   @"LOGIN_PHONE"
+#define LOGIN_GOOGLE    @"LOGIN_GOOGLE"
+#define LOGIN_PHONE_PWD @"LOGIN_PHONE_PWD"
+#define LOGIN_APPLE     @"LOGIN_APPLE"
+
+#define CHANNELTYPE     @"applejwt"
+//存储目录
+#define  LOCALUSERINFO    @"test_AW_userinfo"
+#define  LOCALREPORTINFO  @"test_AW_reportinfo"
+#define  LOCALDELAYREPORTINFO       @"test_AW_reportinfo"
+#define  LOCALSDKCONFIGINFO  @"test_AW_configinfo"
+#define  LOCALLOGINACCOUNT  @"test_AW_loginAccount"
+#define  LOCALORDERINFO     @"test_AW_orderinfo"
+#define  LOGINSTATUS      @"loginstatus"
+#define  SOCKETDATA         @"test_AW_socket"
+#define  LOCALBROCASTCLOSECOUNT     @"test_AW_brocastCloseCount"   //本地记录关闭brocast的次数
+#define  LOCALCHECKVERSIONTIME      @"test_AW_checkversionTime"    //记录显示版本更新的弹窗时间
+#define  LOCALNOTICETIMESTR               @"test_AW_noticeTime"     //记录公告弹出时间，今日不再弹出的话 下次就不弹了
+#define  LOCALPROTOCOLAGREEE              @"test_AW_protocolagree"  //记录用户是否点击过同意
+
+#define  SDKUSERACCOUNTFIELD        @"awsdkuseraccount"
+
+#define AWSDKDEVICEACTIVE           @"awsdkactive"  //设备是否激活过 存应用里面
+
+//发通知
+#define NOTIFICATIONLOGINLIST       @"loginlistshow"
+#define NOTIFICATIONWEIXINBIND      @"awweixinbind"
+
+//日志tag
+#define TAG_H5_JS                   @"aw_h5js"
+#define TAG_OK_HTTP                 @"aw_okHttp"
+#define TAG_SDK_METHOD              @"awmethod"
+#define TAG_SDK_EVENT               @"aw_event"
+#define TAG_SDK_EVENT_GAME          @"aw_event_game"
+#define TAG_SDK_DIALOG              @"aw_dialog"    //显示的窗口
+
+#endif /* AWPrefixHeader_pch */
